@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZAKKY Coffee | Mulai dari Nol. Seduh hingga Tak Terbatas.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">ZAKKY</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Beranda</a></li>
+                <li><a href="#about" class="nav-link">Tentang</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#testimonials" class="nav-link">Ulasan</a></li>
+                <li><a href="#faq" class="nav-link">FAQ</a></li>
+                <li><a href="#contact" class="nav-link">Kontak</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Ubah tema">
+                <span class="theme-icon">🌙</span>
+            </button>
+            <button class="hamburger" id="hamburger" aria-label="Buka menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="gradient-text">ZAKKY</span><br>
+                Coffee Lab
+            </h1>
+            <p class="hero-subtitle">Mulai dari Nol. Seduh hingga Tak Terbatas.</p>
+            <p class="hero-description">Setiap cangkir diseduh dengan presisi, passion, dan sentuhan inovasi.</p>
+            <button class="cta-button" onclick="window.location.href='#menu'">
+                Pesan Sekarang
+                <span class="button-arrow">→</span>
+            </button>
+        </div>
+        <div class="hero-decoration">
+            <div class="floating-circle circle-1"></div>
+            <div class="floating-circle circle-2"></div>
+            <div class="floating-circle circle-3"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tentang Kami</h2>
+                <p class="section-subtitle">Lebih dari sekadar kopi</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-paragraph">
+                        Di ZAKKY Coffee Lab, kami percaya untuk memulai dari nol—tanpa pretensi, tanpa jalan pintas, hanya dedikasi murni pada seni kopi. Kami adalah UMKM lokal kecil yang bersemangat menghadirkan seduhan terbaik untuk Anda, satu cangkir demi satu cangkir.
+                    </p>
+                    <p class="about-paragraph">
+                        Lab kami adalah tempat di mana sains bertemu seni. Setiap biji dipilih dengan hati-hati, setiap sangrai diatur waktunya dengan teliti, dan setiap cangkir diseduh dengan niat. Kami tidak hanya menyajikan kopi; kami menciptakan pengalaman yang mengisi hari Anda dan menginspirasi perjalanan Anda.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">100+</div>
+                            <div class="stat-label">Pelanggan Bahagia</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Varietas Kopi</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Mode Passion</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Menu Unggulan</h2>
+                <p class="section-subtitle">Dibuat dengan hati, disajikan dengan cinta</p>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-card-inner">
+                        <div class="menu-icon">☕</div>
+                        <h3 class="menu-name">Espresso</h3>
+                        <p class="menu-description">Murni, intens, dan berani tanpa kompromi. Fondasi kopi yang luar biasa.</p>
+                        <div class="menu-price">Rp 15K</div>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-inner">
+                        <div class="menu-icon">🥛</div>
+                        <h3 class="menu-name">Cappuccino</h3>
+                        <p class="menu-description">Harmoni sempurna antara espresso, susu steamed, dan busa yang lembut.</p>
+                        <div class="menu-price">Rp 22K</div>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-inner">
+                        <div class="menu-icon">☕</div>
+                        <h3 class="menu-name">Latte</h3>
+                        <p class="menu-description">Halus dan creamy, dengan keseimbangan sempurna antara espresso dan susu.</p>
+                        <div class="menu-price">Rp 25K</div>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-inner">
+                        <div class="menu-icon">✨</div>
+                        <h3 class="menu-name">Zero Signature</h3>
+                        <p class="menu-description">Blend spesial rumah kami dengan sentuhan rahasia. Mulai dari nol, rasakan tak terbatas.</p>
+                        <div class="menu-price">Rp 30K</div>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-inner">
+                        <div class="menu-icon">🧊</div>
+                        <h3 class="menu-name">Cold Brew</h3>
+                        <p class="menu-description">Halus, menyegarkan, dan diseduh sempurna untuk vibe chill yang maksimal.</p>
+                        <div class="menu-price">Rp 20K</div>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-inner">
+                        <div class="menu-icon">🍵</div>
+                        <h3 class="menu-name">Matcha Latte</h3>
+                        <p class="menu-description">Untuk yang tidak suka kopi. Creamy, earthy, dan benar-benar lezat.</p>
+                        <div class="menu-price">Rp 28K</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Apa Kata Mereka</h2>
+                <p class="section-subtitle">Ulasan asli dari pecinta kopi sejati</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <div class="testimonial-card active">
+                        <div class="testimonial-content">
+                            <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                            <p class="testimonial-text">"Kopi terbaik di kota, serius! Zero Signature benar-benar mantap 🔥. Vibes di sini sempurna banget."</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">A</div>
+                                <div class="author-info">
+                                    <div class="author-name">Alex</div>
+                                    <div class="author-role">Mahasiswa</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                            <p class="testimonial-text">"ZAKKY beda banget. Cold brew-nya chef's kiss 👌. Tempat yang sempurna untuk belajar dan nongkrong."</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">S</div>
+                                <div class="author-info">
+                                    <div class="author-name">Sarah</div>
+                                    <div class="author-role">Content Creator</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                            <p class="testimonial-text">"Espresso di sini levelnya beda. Kualitasnya terasa di setiap tegukan. Worth it banget!"</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">R</div>
+                                <div class="author-info">
+                                    <div class="author-name">Rizki</div>
+                                    <div class="author-role">Freelancer</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                            <p class="testimonial-text">"Ketagihan sama Matcha Latte-nya! Estetika tempat ini sempurna. Insta-worthy banget 📸"</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">M</div>
+                                <div class="author-info">
+                                    <div class="author-name">Maya</div>
+                                    <div class="author-role">Desainer</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="testimonial-btn prev" id="prevBtn" aria-label="Ulasan sebelumnya">‹</button>
+                    <div class="testimonial-dots" id="testimonialDots"></div>
+                    <button class="testimonial-btn next" id="nextBtn" aria-label="Ulasan berikutnya">›</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Pertanyaan yang Sering Diajukan</h2>
+                <p class="section-subtitle">Semua yang perlu Anda ketahui</p>
+            </div>
+            <div class="accordion-container">
+                <div class="accordion-item">
+                    <button class="accordion-trigger" aria-expanded="false">
+                        <span class="accordion-title">Apa yang membuat ZAKKY Coffee Lab berbeda dari kedai kopi lain?</span>
+                        <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Di ZAKKY Coffee Lab, kami memulai dari nol—tanpa pretensi, hanya passion murni. Setiap biji dipilih dengan hati-hati, setiap sangrai diatur waktunya dengan teliti, dan setiap cangkir diseduh dengan niat. Kami menggabungkan sains dan seni untuk menciptakan pengalaman kopi yang unik yang tidak akan Anda temukan di tempat lain.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-trigger" aria-expanded="false">
+                        <span class="accordion-title">Apakah Anda menyediakan layanan delivery atau takeaway?</span>
+                        <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Ya! Kami menyediakan layanan takeaway dan delivery. Anda bisa memesan melalui WhatsApp atau mengunjungi toko kami. Untuk delivery, kami bekerja sama dengan layanan pengiriman lokal untuk memastikan kopi Anda sampai segar dan panas. Berlaku minimum order untuk delivery.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-trigger" aria-expanded="false">
+                        <span class="accordion-title">Apa itu minuman Zero Signature?</span>
+                        <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Zero Signature adalah blend spesial rumah kami—resep rahasia yang mewujudkan filosofi "Mulai dari Nol. Seduh hingga Tak Terbatas." Ini adalah kombinasi biji kopi premium yang dibuat dengan hati-hati dengan sentuhan unik yang menciptakan profil rasa yang tak terlupakan. Anda harus mencobanya untuk merasakannya!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-trigger" aria-expanded="false">
+                        <span class="accordion-title">Apakah ada pilihan untuk yang tidak suka kopi?</span>
+                        <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Tentu saja! Kami menyediakan berbagai pilihan non-kopi termasuk Matcha Latte yang populer, hot chocolate, dan pilihan teh. Kami juga memiliki minuman dingin yang menyegarkan dan camilan ringan untuk melengkapi minuman Anda.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-trigger" aria-expanded="false">
+                        <span class="accordion-title">Jam berapa Anda buka?</span>
+                        <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Kami buka Senin hingga Minggu dari pukul 07:00 hingga 22:00. Kami siap mengisi hari Anda, baik untuk boost pagi hari atau pick-me-up di malam hari!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-trigger" aria-expanded="false">
+                        <span class="accordion-title">Apakah ada program loyalitas atau diskon?</span>
+                        <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Ya! Kami memiliki program loyalitas di mana Anda mendapatkan poin dengan setiap pembelian. Tanyakan kepada barista kami saat berkunjung. Kami juga mengadakan promosi dan diskon khusus sepanjang tahun—ikuti kami di media sosial untuk tetap update!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-trigger" aria-expanded="false">
+                        <span class="accordion-title">Bisakah saya memesan tempat untuk acara atau meeting?</span>
+                        <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Kami senang menjadi tuan rumah acara Anda! Silakan hubungi kami melalui WhatsApp atau email setidaknya 48 jam sebelumnya untuk membahas ketersediaan dan pengaturan. Kami dapat menampung kelompok kecil dan menyediakan opsi katering untuk meeting atau pertemuan Anda.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Kunjungi Kami</h2>
+                <p class="section-subtitle">Mari kita seduh sesuatu bersama.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+
+                    <!-- Lokasi -->
+                    <div class="contact-item">
+                        <div class="contact-icon" aria-label="Lokasi">📍</div>
+                        <div class="contact-details">
+                            <h3>Alamat</h3>
+                            <address>
+                                Jl. Coffee Street No. 42,<br>
+                                Jakarta, Indonesia
+                            </address>
+                        </div>
+                    </div>
+
+                    <!-- Jam Operasional -->
+                    <div class="contact-item">
+                        <div class="contact-icon" aria-label="Jam Operasional">🕗</div>
+                        <div class="contact-details">
+                            <h3>Jam Operasional</h3>
+                            <p>
+                                <span>Senin–Minggu</span><br>
+                                <time datetime="07:00">07.00</time> - <time datetime="22:00">22.00</time>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Kontak -->
+                    <div class="contact-item">
+                        <div class="contact-icon" aria-label="Kontak">☎️</div>
+                        <div class="contact-details">
+                            <h3>Kontak</h3>
+                            <p>
+                                +62 895-xxxx-xxxx<br>
+                                hello@zakkycoffee.id
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <a href="https://wa.me/6281234567890" class="whatsapp-button" target="_blank" rel="noopener noreferrer" aria-label="Chat via WhatsApp">
+                        <span class="whatsapp-icon" aria-hidden="true">💬</span>
+                        <span>Chat via WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">ZAKKY</div>
+                    <p class="footer-slogan">Start from Zero. Brew to Infinity.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Beranda</a>
+                    <a href="#about">Tentang</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#testimonials">Ulasan</a>
+                    <a href="#faq">FAQ</a>
+                    <a href="#contact">Kontak</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ZAKKY Coffee Lab. Hak cipta dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
